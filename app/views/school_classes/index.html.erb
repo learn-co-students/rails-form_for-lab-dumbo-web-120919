@@ -1,0 +1,3 @@
+<%@school_classes.each do |sc|%>
+    <p>Title, Rm #: <%= link_to sc.title, school_class_path(sc.id)%></p>
+<%end%>
